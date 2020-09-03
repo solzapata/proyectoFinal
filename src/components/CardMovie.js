@@ -34,7 +34,7 @@ const BasicCard = ({ data, customStyle, media_type }) => {
   const history = useHistory();
 
   const handleMediaClick = (id, media_type) => {
-    history.push(`/${media_type}/${id}`);
+    history.push(`/${media_type}/${id}/info`);
   };
 
   return (
